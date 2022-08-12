@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('../fonts/DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/DMSerifDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../fonts/Jost-Regular.woff2') format('woff2'),
+        url('../fonts/Jost-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../fonts/Jost-Regular.woff2') format('woff2'),
+        url('../fonts/Jost-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.humans .container {
+    margin-top: 140px;
+    margin-bottom: 170px;
+    padding-top: 103px;
+    background: #F4F0EC;
+    border-radius: 70px;
+}
+
+.heading {
+    width: 479px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 47px;
+}
+
+.lisa {
+    display: flex;
+}
+
+.item {
+    padding: 50px 75px 45px 35px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin-right: 18px;
+    margin-bottom: 121px;
+}
+
+.last-item {
+    margin-right: 0px;
+}
+
+.item-heading {
+    margin-left: 20px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.item-span {
+    margin-left: 20px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.item-text {
+    margin-top: 25px;
+    width: 244px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.second-item-text {
+    width: 256px;
+}
+
+.last-item-text {
+    width: 274px;
+}
